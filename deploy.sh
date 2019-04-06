@@ -19,7 +19,7 @@ killBoot()
   fi
 }
 
-cd $PROJ_PATH/codefruit_web
+cd $PROJ_PATH/codefruit
 mvn -Dmaven.test.skip -U clean package
 
 #ֹͣBoot
